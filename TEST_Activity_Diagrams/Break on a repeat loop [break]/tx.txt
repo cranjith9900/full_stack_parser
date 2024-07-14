@@ -1,0 +1,174 @@
+initialState: {
+   "nodes": [
+        {
+            "id": "Node_1",
+            "data": {
+                "label": "Start"
+            },
+            "position": {
+                "x": 100,
+                "y": 100
+            }
+        },
+        {
+            "id": "Node_2",
+            "data": {
+                "label": "Test something"
+            },
+            "position": {
+                "x": 300,
+                "y": 100
+            }
+        },
+        {
+            "id": "Node_3",
+            "data": {
+                "label": "Something went wrong?"
+            },
+            "position": {
+                "x": 500,
+                "y": 100
+            }
+        },
+        {
+            "id": "Node_4",
+            "data": {
+                "label": "#palegreen:OK"
+            },
+            "position": {
+                "x": 700,
+                "y": 100
+            }
+        },
+        {
+            "id": "Node_5",
+            "data": {
+                "label": "NOK"
+            },
+            "position": {
+                "x": 500,
+                "y": 300
+            }
+        },
+        {
+            "id": "Node_6",
+            "data": {
+                "label": "Alert \"Error with long text\""
+            },
+            "position": {
+                "x": 700,
+                "y": 300
+            }
+        },
+        {
+            "id": "Node_7",
+            "data": {
+                "label": "Something went wrong with long text?"
+            },
+            "position": {
+                "x": 500,
+                "y": 500
+            }
+        },
+        {
+            "id": "Node_8",
+            "data": {
+                "label": "//merged step//"
+            },
+            "position": {
+                "x": 700,
+                "y": 500
+            }
+        },
+        {
+            "id": "Node_9",
+            "data": {
+                "label": "Alert \"Success\""
+            },
+            "position": {
+                "x": 500,
+                "y": 700
+            }
+        },
+        {
+            "id": "Node_10",
+            "data": {
+                "label": "Stop"
+            },
+            "position": {
+                "x": 300,
+                "y": 700
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "source": "Node_1",
+            "target": "Node_2",
+            "label": "",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e2",
+            "source": "Node_2",
+            "target": "Node_3",
+            "label": "",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e3",
+            "source": "Node_3",
+            "target": "Node_4",
+            "label": "no",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e4",
+            "source": "Node_3",
+            "target": "Node_5",
+            "label": "yes",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e5",
+            "source": "Node_5",
+            "target": "Node_6",
+            "label": "",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e6",
+            "source": "Node_6",
+            "target": "Node_7",
+            "label": "",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e7",
+            "source": "Node_7",
+            "target": "Node_8",
+            "label": "yes",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e8",
+            "source": "Node_8",
+            "target": "Node_9",
+            "label": "",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e9",
+            "source": "Node_9",
+            "target": "Node_10",
+            "label": "",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e10",
+            "source": "Node_7",
+            "target": "Node_10",
+            "label": "no",
+            "type": "buttonedge"
+        }],

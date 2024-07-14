@@ -1,0 +1,154 @@
+@startuml
+start
+:Hello world;
+:This is defined on
+several **lines**;
+stop
+@enduml
+
+
+
+
+in post man 
+
+
+{
+  "plantuml": "@startuml\nstart\n:Hello world;\n:This is defined on\nseveral **lines**;\nstop\n@enduml"
+}
+
+
+
+{
+    "nodes": [
+        {
+            "id": "Node_1",
+            "data": {
+                "label": "Start"
+            },
+            "position": {
+                "x": 100,
+                "y": 100
+            }
+        },
+        {
+            "id": "Node_2",
+            "data": {
+                "label": "Hello world"
+            },
+            "position": {
+                "x": 400,
+                "y": 400
+            }
+        },
+        {
+            "id": "Node_3",
+            "data": {
+                "label": "This is defined o"
+            },
+            "position": {
+                "x": 400,
+                "y": 400
+            }
+        },
+        {
+            "id": "Node_4",
+            "data": {
+                "label": "Stop"
+            },
+            "position": {
+                "x": 200,
+                "y": 200
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "source": "Node_1",
+            "target": "Node_2",
+            "label": ""
+        },
+        {
+            "id": "e2",
+            "source": "Node_2",
+            "target": "Node_3",
+            "label": ""
+        },
+        {
+            "id": "e3",
+            "source": "Node_3",
+            "target": "Node_4",
+            "label": ""
+        }
+    ]
+}
+
+
+//in floslice intial nodes and edges
+
+nodes: [
+      {
+        "id": "Node_1",
+        "data": {
+            "label": "Start"
+        },
+        "position": {
+            "x": 100,
+            "y": 100
+        }
+    },
+    {
+        "id": "Node_2",
+        "data": {
+            "label": "Hello world"
+        },
+        "position": {
+            "x": 400,
+            "y": 400
+        }
+    },
+    {
+        "id": "Node_3",
+        "data": {
+            "label": "This is defined o"
+        },
+        "position": {
+            "x": 400,
+            "y": 400
+        }
+    },
+    {
+        "id": "Node_4",
+        "data": {
+            "label": "Stop"
+        },
+        "position": {
+            "x": 200,
+            "y": 200
+        }
+    }
+    ],
+    edges: [
+      
+      {
+        id: "e1",
+        source: "Node_1",
+        target: "Node_2",
+        label: "",
+        type: "buttonedge"
+    },
+    {
+        id: "e2",
+        source: "Node_2",
+        target: "Node_3",
+        label: "",
+        type: "buttonedge"
+    },
+    {
+        id: "e3",
+        source: "Node_3",
+        target: "Node_4",
+        label: "",
+        type: "buttonedge"
+    }
+    ],

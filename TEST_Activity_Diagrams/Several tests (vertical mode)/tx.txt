@@ -1,0 +1,213 @@
+initialState: {
+    "nodes": [
+        {
+            "id": "Node_1",
+            "data": {
+                "label": "Start"
+            },
+            "position": {
+                "x": 100,
+                "y": 100
+            }
+        },
+        {
+            "id": "Node_2",
+            "data": {
+                "label": "condition A"
+            },
+            "position": {
+                "x": 300,
+                "y": 100
+            }
+        },
+        {
+            "id": "Node_3",
+            "data": {
+                "label": "Text 1"
+            },
+            "position": {
+                "x": 300,
+                "y": 200
+            }
+        },
+        {
+            "id": "Node_4",
+            "data": {
+                "label": "condition B"
+            },
+            "position": {
+                "x": 300,
+                "y": 300
+            }
+        },
+        {
+            "id": "Node_5",
+            "data": {
+                "label": "Text 2"
+            },
+            "position": {
+                "x": 300,
+                "y": 400
+            }
+        },
+        {
+            "id": "Node_6",
+            "data": {
+                "label": "condition C"
+            },
+            "position": {
+                "x": 300,
+                "y": 500
+            }
+        },
+        {
+            "id": "Node_7",
+            "data": {
+                "label": "Text 3"
+            },
+            "position": {
+                "x": 300,
+                "y": 600
+            }
+        },
+        {
+            "id": "Node_8",
+            "data": {
+                "label": "condition D"
+            },
+            "position": {
+                "x": 300,
+                "y": 700
+            }
+        },
+        {
+            "id": "Node_9",
+            "data": {
+                "label": "Text 4"
+            },
+            "position": {
+                "x": 300,
+                "y": 800
+            }
+        },
+        {
+            "id": "Node_10",
+            "data": {
+                "label": "Text else"
+            },
+            "position": {
+                "x": 300,
+                "y": 900
+            }
+        },
+        {
+            "id": "Node_11",
+            "data": {
+                "label": "Stop"
+            },
+            "position": {
+                "x": 300,
+                "y": 1000
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "source": "Node_1",
+            "target": "Node_2",
+            "label": "",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e2",
+            "source": "Node_2",
+            "target": "Node_3",
+            "label": "yes",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e3",
+            "source": "Node_3",
+            "target": "Node_11",
+            "label": "",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e4",
+            "source": "Node_2",
+            "target": "Node_4",
+            "label": "no",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e5",
+            "source": "Node_4",
+            "target": "Node_5",
+            "label": "yes",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e6",
+            "source": "Node_5",
+            "target": "Node_11",
+            "label": "",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e7",
+            "source": "Node_4",
+            "target": "Node_6",
+            "label": "no",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e8",
+            "source": "Node_6",
+            "target": "Node_7",
+            "label": "yes",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e9",
+            "source": "Node_7",
+            "target": "Node_11",
+            "label": "",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e10",
+            "source": "Node_6",
+            "target": "Node_8",
+            "label": "no",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e11",
+            "source": "Node_8",
+            "target": "Node_9",
+            "label": "yes",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e12",
+            "source": "Node_9",
+            "target": "Node_11",
+            "label": "",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e13",
+            "source": "Node_8",
+            "target": "Node_10",
+            "label": "no",
+            "type": "buttonedge"
+        },
+        {
+            "id": "e14",
+            "source": "Node_10",
+            "target": "Node_11",
+            "label": "",
+            "type": "buttonedge"
+        }
+    ],

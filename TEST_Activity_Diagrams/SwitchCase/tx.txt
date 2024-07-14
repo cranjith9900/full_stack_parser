@@ -1,0 +1,219 @@
+initialState: {
+    "nodes": [
+      {
+        "id": "Node_Start",
+        "data": {
+          "label": "Start"
+        },
+        "position": {
+          "x": 100,
+          "y": 100
+        }
+      },
+      {
+        "id": "Node_Switch",
+        "data": {
+          "label": "Test?"
+        },
+        "position": {
+          "x": 300,
+          "y": 100
+        }
+      },
+      {
+        "id": "Node_Condition_A",
+        "data": {
+          "label": "Condition A"
+        },
+        "position": {
+          "x": 500,
+          "y": 50
+        }
+      },
+      {
+        "id": "Node_Text_1",
+        "data": {
+          "label": "Text 1"
+        },
+        "position": {
+          "x": 700,
+          "y": 50
+        }
+      },
+      {
+        "id": "Node_Condition_B",
+        "data": {
+          "label": "Condition B"
+        },
+        "position": {
+          "x": 500,
+          "y": 150
+        }
+      },
+      {
+        "id": "Node_Text_2",
+        "data": {
+          "label": "Text 2"
+        },
+        "position": {
+          "x": 700,
+          "y": 150
+        }
+      },
+      {
+        "id": "Node_Condition_C",
+        "data": {
+          "label": "Condition C"
+        },
+        "position": {
+          "x": 500,
+          "y": 250
+        }
+      },
+      {
+        "id": "Node_Text_3",
+        "data": {
+          "label": "Text 3"
+        },
+        "position": {
+          "x": 700,
+          "y": 250
+        }
+      },
+      {
+        "id": "Node_Condition_D",
+        "data": {
+          "label": "Condition D"
+        },
+        "position": {
+          "x": 500,
+          "y": 350
+        }
+      },
+      {
+        "id": "Node_Text_4",
+        "data": {
+          "label": "Text 4"
+        },
+        "position": {
+          "x": 700,
+          "y": 350
+        }
+      },
+      {
+        "id": "Node_Condition_E",
+        "data": {
+          "label": "Condition E"
+        },
+        "position": {
+          "x": 500,
+          "y": 450
+        }
+      },
+      {
+        "id": "Node_Text_5",
+        "data": {
+          "label": "Text 5"
+        },
+        "position": {
+          "x": 700,
+          "y": 450
+        }
+      },
+      {
+        "id": "Node_Stop",
+        "data": {
+          "label": "Stop"
+        },
+        "position": {
+          "x": 300,
+          "y": 550
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1",
+        "source": "Node_Start",
+        "target": "Node_Switch",
+        "label": "",
+        "type": "buttonedge"
+      },
+      {
+        "id": "e2",
+        "source": "Node_Switch",
+        "target": "Node_Condition_A",
+        "label": "Condition A",
+        "type": "buttonedge"
+      },
+      {
+        "id": "e3",
+        "source": "Node_Condition_A",
+        "target": "Node_Text_1",
+        "label": "",
+        "type": "buttonedge"
+      },
+      {
+        "id": "e4",
+        "source": "Node_Switch",
+        "target": "Node_Condition_B",
+        "label": "Condition B",
+        "type": "buttonedge"
+      },
+      {
+        "id": "e5",
+        "source": "Node_Condition_B",
+        "target": "Node_Text_2",
+        "label": "",
+        "type": "buttonedge"
+      },
+      {
+        "id": "e6",
+        "source": "Node_Switch",
+        "target": "Node_Condition_C",
+        "label": "Condition C",
+        "type": "buttonedge"
+      },
+      {
+        "id": "e7",
+        "source": "Node_Condition_C",
+        "target": "Node_Text_3",
+        "label": "",
+        "type": "buttonedge"
+      },
+      {
+        "id": "e8",
+        "source": "Node_Switch",
+        "target": "Node_Condition_D",
+        "label": "Condition D",
+        "type": "buttonedge"
+      },
+      {
+        "id": "e9",
+        "source": "Node_Condition_D",
+        "target": "Node_Text_4",
+        "label": "",
+        "type": "buttonedge"
+      },
+      {
+        "id": "e10",
+        "source": "Node_Switch",
+        "target": "Node_Condition_E",
+        "label": "Condition E",
+        "type": "buttonedge"
+      },
+      {
+        "id": "e11",
+        "source": "Node_Condition_E",
+        "target": "Node_Text_5",
+        "label": "",
+        "type": "buttonedge"
+      },
+      {
+        "id": "e12",
+        "source": "Node_Switch",
+        "target": "Node_Stop",
+        "label": "",
+        "type": "buttonedge"
+      }
+    ],

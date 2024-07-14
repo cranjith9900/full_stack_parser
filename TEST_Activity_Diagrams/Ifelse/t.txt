@@ -1,0 +1,143 @@
+ initialState: {
+    nodes: [
+      {
+        "id": "Node_1",
+        "data": {
+            "label": "Start"
+        },
+        "position": {
+            "x": 100,
+            "y": 100
+        }
+    },
+    {
+        "id": "Node_2",
+        "data": {
+            "label": "Test something"
+        },
+        "position": {
+            "x": 400,
+            "y": 200
+        }
+    },
+    {
+        "id": "Node_3",
+        "data": {
+            "label": "Something went wrong?"
+        },
+        "position": {
+            "x": 400,
+            "y": 400
+        }
+    },
+    {
+        "id": "Node_4",
+        "data": {
+            "label": "OK"
+        },
+        "position": {
+            "x": 600,
+            "y": 200
+        }
+    },
+    {
+        "id": "Node_5",
+        "data": {
+            "label": "Alert \"Error with long text\""
+        },
+        "position": {
+            "x": 400,
+            "y": 600
+        }
+    },
+    {
+        "id": "Node_6",
+        "data": {
+            "label": "Something went wrong with long text?"
+        },
+        "position": {
+            "x": 400,
+            "y": 800
+        }
+    },
+    {
+        "id": "Node_7",
+        "data": {
+            "label": "Alert \"Success\""
+        },
+        "position": {
+            "x": 600,
+            "y": 800
+        }
+    },
+    {
+        "id": "Node_8",
+        "data": {
+            "label": "Stop"
+        },
+        "position": {
+            "x": 800,
+            "y": 1000
+        }
+    }
+    ],
+    edges: [
+      
+      {
+        "id": "e1",
+        "source": "Node_1",
+        "target": "Node_2",
+        "label": "",
+        "type": "buttonedge"
+    },
+    {
+        "id": "e2",
+        "source": "Node_2",
+        "target": "Node_3",
+        "label": "",
+        "type": "buttonedge"
+    },
+    {
+        "id": "e3",
+        "source": "Node_3",
+        "target": "Node_4",
+        "label": "no",
+        "type": "buttonedge"
+    },
+    {
+        "id": "e4",
+        "source": "Node_3",
+        "target": "Node_5",
+        "label": "yes",
+        "type": "buttonedge"
+    },
+    {
+        "id": "e5",
+        "source": "Node_5",
+        "target": "Node_6",
+        "label": "",
+        "type": "buttonedge"
+    },
+    {
+        "id": "e6",
+        "source": "Node_6",
+        "target": "Node_2",
+        "label": "no",
+        "type": "buttonedge"
+    },
+    {
+        "id": "e7",
+        "source": "Node_6",
+        "target": "Node_7",
+        "label": "yes",
+        "type": "buttonedge"
+    },
+    {
+        "id": "e8",
+        "source": "Node_7",
+        "target": "Node_8",
+        "label": "",
+        "type": "buttonedge"
+    }
+    ],
+  },
